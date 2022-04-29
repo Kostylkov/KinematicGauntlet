@@ -1,2 +1,2 @@
 # KinematicGauntlet
-Usage of IMU sensor in tracking fists movement
+Usage of IMU sensor in tracking fist's movement
