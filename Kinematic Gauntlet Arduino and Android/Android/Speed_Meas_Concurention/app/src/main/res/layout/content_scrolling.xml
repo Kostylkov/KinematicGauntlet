@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Check"
+    tools:showIn="@layout/activity_check">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphacc"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphang"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_marginTop="48dp"
+            app:layout_constraintTop_toBottomOf="@+id/graphacc"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphvelo"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_marginTop="556dp"
+            app:layout_constraintTop_toBottomOf="@+id/graphang"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphtraj"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_marginTop="44dp"
+            app:layout_constraintTop_toBottomOf="@+id/graphang"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphangvel"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_marginTop="56dp"
+            app:layout_constraintTop_toBottomOf="@+id/graphtraj"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrzebiegKonkurencji"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-102dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PrzebiegKonkurencji"
+        tools:layout_editor_absoluteX="-128dp"
+        tools:layout_editor_absoluteY="-333dp">
+
+        <TextView
+            android:id="@+id/PrzebiegKonkurencji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+            android:text="Przebieg Konkurencji"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/zawodnik"
+            android:layout_width="267dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:text="Zawodnik"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/wynik"
+            android:layout_width="273dp"
+            android:layout_height="197dp"
+            android:layout_marginTop="244dp"
+            android:gravity="center"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/przyciskCios"
+            android:layout_width="211dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="592dp"
+            android:text="CIOS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/przyciskNastepny"
+            android:layout_width="211dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="160dp"
+            android:text="Następny"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="check"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="441dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
